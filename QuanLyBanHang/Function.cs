@@ -210,6 +210,7 @@ namespace QuanLyBanHang
                 purchaseOrder_ID = purchaseOrder_list.Max(purchaseOrder_ID => purchaseOrder_ID.PurchaseOrderID) + 1;
             }
             else
+            /*GHI CHÚ*/
             {
                 purchaseOrder_ID = 1;
             }
